@@ -6,7 +6,7 @@ PolishPalette is an innovative, web-based nail salon booking platform that moder
 
 * **Clients:** Can use the Gemini AI Recommender to find custom nail designs based on text prompts, securely upload reference images, book appointments through a streamlined flow, and leave post-session ratings.
 * **Artists:** Access a dedicated dashboard to view their visual work queue, approve or reject pending appointments, and manage active sessions using real-time start/finish timestamps.
-* **Admins & Security:** Features robust security measures including Google OAuth integration, secure cloud image hosting, and comprehensive Admin Activity Logs to ensure non-repudiation and system auditing.
+* **Admin & Security:** Features robust security measures including Google OAuth integration, secure cloud image hosting, and comprehensive Admin Activity Logs to ensure non-repudiation and system auditing.
 
 ## Tech Stack
 
@@ -59,7 +59,5 @@ python manage.py migrate
 python manage.py runserver
 ```
 ```
-
-***
 
 

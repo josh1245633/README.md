@@ -62,7 +62,4 @@ python manage.py runserver
 
 ***
 
-### How to use this:
-Just copy everything inside that black code block above, create a new file in your VS Code root directory called `README.md`, paste it in, and push it to GitHub. It will automatically format itself perfectly on the repository homepage.
 
-Since the Admin Activity Logs are officially done, do you want to write the code for the **Artist Session Timestamps** next to completely finish out the backend logic?

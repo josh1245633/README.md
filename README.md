@@ -16,6 +16,7 @@ PolishPalette is an innovative, web-based nail salon booking platform that moder
 4. **Bootstrap 5** (UI Styling & Responsive Layouts)
 5. **Cloudinary** (Secure Reference Image Storage)
 6. **Google Gemini AI API** (Smart Recommender Engine)
+7. **Brevo** (SMTP / Notification Service for Booking Confirmations & Reviews)
 
 ## Run Locally
 
@@ -47,6 +48,8 @@ SECRET_KEY=your_django_secret_key
 DEBUG=True
 GEMINI_API_KEY=your_gemini_key
 CLOUDINARY_URL=your_cloudinary_url
+EMAIL_HOST_USER=your_brevo_smtp_login
+EMAIL_HOST_PASSWORD=your_brevo_smtp_password
 ```
 
 6. Run Database Migrations
@@ -59,5 +62,3 @@ python manage.py migrate
 python manage.py runserver
 ```
 ```
-
-
